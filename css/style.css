@@ -1,0 +1,67 @@
+h1{
+    text-align: center;
+    font-family: 'roboto';
+    font-size: 2.7rem;
+}
+
+.form{
+    display:flex;
+    flex-direction:row;
+    text-align: center;
+    font-size: 1.8rem;
+    font-weight: bold;
+    font-family: 'roboto';
+    margin-bottom: 20px;
+    align-items: center;
+}
+
+.form input[type=text]{
+    width: 200px;
+    padding: 10px 20px;
+    font-size: 1.2rem;
+    border-radius: 5px;
+    margin-right: 10px;
+    margin-left: 10px;
+}
+
+button{
+    display: block;
+    position: relative;
+    margin-right: auto;
+    padding: 10px;
+    border-radius: 5px;
+    font-family: 'roboto';
+    font-weight: bold;
+}
+
+#list li{
+    margin-bottom: 30px;
+    font-size: 1.3rem;
+}
+
+button,
+btn:hover{
+    transform: scale(1.09);
+    transition: 1.9s;
+    cursor: pointer;
+}
+
+btn{
+    display: flex;
+    flex-direction:row;
+    padding: 5px;
+    border: solid 1px black;
+    border-radius: 5px;
+    font-family: 'roboto';
+    font-weight: bold;
+    float: right !important;
+}
+
+.done {
+    background: #51DF70 !important;
+    color: #00891E;
+}
+
+.delete {
+    display: none;
+}
