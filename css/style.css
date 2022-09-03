@@ -65,3 +65,22 @@ btn{
 .delete {
     display: none;
 }
+
+/*Responsividade*/
+
+@media only screen and (max-device-width: 500px){
+
+    body{
+        display: flex;
+        flex-direction: column;
+        margin: 0;
+    }
+    .form{
+        display: flex;
+        flex-direction: column;
+    }
+    button{
+        margin-left: auto;
+        margin-top: 10px;
+    }
+}
